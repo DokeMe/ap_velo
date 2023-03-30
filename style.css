@@ -1,0 +1,62 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    font-style: normal;
+    box-sizing: border-box;
+}
+body{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+nav{
+    background-color: #B3C79F;
+    height: 70px;
+    width: 100%;
+}
+label.nazev{
+    color: #58634C;
+    font-size: 30px;
+    line-height: 70px;
+    padding: 0 50px;
+    font-weight: bold;
+}
+nav ul{
+    float: right;
+    margin-right: 25px;
+}
+nav ul li{
+    display: inline;
+    line-height: 70px;
+    margin: 0 4px; /* jak daleko od sebe jsou texty */
+}
+nav ul li a{
+    color: #636363;
+    font-size: 18px;
+    padding: 7px 13px;
+    border-radius: 3px;
+}
+a.active,a:hover{
+    background: #E3E3E3;
+    transition: .5s;
+}
+.container{
+    background-color: #fff;
+}
+.hlavni-text{
+text-align: center;
+font-size: 25px;
+font-weight: bolder;
+background-color: #E3E3E3;
+width: 100%;
+padding: 10px;
+}
+.footer{
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 15px;
+    text-decoration: none;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
